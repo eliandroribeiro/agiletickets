@@ -30,4 +30,9 @@ public class SessaoTest {
 		sessao.reserva(3);
 		Assert.assertEquals(2, sessao.getIngressosDisponiveis().intValue());
 	}
+	
+	@Test
+	public void deveVender7IngressosSeHa7Vagas(){
+		
+	}
 }
